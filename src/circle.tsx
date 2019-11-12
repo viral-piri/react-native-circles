@@ -59,7 +59,7 @@ const MultiArcCircle = ({
   backgroundColor,
   width
 }: Props) => {
-  const EDGE_RADIUS = width / 2;
+  const EDGE_RADIUS = width / 1;
   const internalRadius = radius - width;
   const center = { x: radius, y: radius };
 
